@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    display: flex;
+    min-height: 73px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logoimagen{
+    height: 50px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav a:hover{
+    color: red;
+    text-decoration: none;
+}
+main{
+    height: 500px;
+    width: 100%;
+    background-image: url(../multimedia/darthvaderteclado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    margin-top: 10%;
+}
+footer p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.fondoh{
+    background-color: red;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: black;
+
+}
+h2.centro{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+}
+.alinear{
+    width: 300px;
+    height: 200px;
+    margin: 0 50px;
+}
+.seccion{
+    display: flex;
+    justify-content: center;
+} 
+.servicios{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    margin-left: 20px;
+    color: white;
+}
+.servicios2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    margin-left: 20px;
+    color: white;
+}
+img.productos{
+    height: 150px;
+    width: 200px;
+    display: inline;
+    margin-left: 37px;
+    margin-top: 37px;
+    margin-bottom: 37px;
+    border: 1px solid gray;
+}
+.textoserv{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 17px;
+    margin-left: 19px;
+}
+div.contacto-wrapper{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 1.5em;
+    
+}
+.content{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+.contah3{
+    text-align: center;
+    font-size: 1.8em;
+}
+div.contacto-form{
+    background: black;
+    padding: 20px;
+}
+.contacto-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contacto-form form p{
+    margin: 0;
+    padding: 1em;
+}
+.contacto-form form button,
+.contacto-form form input,
+.contacto-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    border-bottom: 1px solid red;
+    outline: 0;
+    color: white;
+}
+.contacto-form form button{
+    background: red;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+.contacto-form form .block{
+    grid-column: 1/3;
+}
+.contenedor{
+    background-color: rgb(44, 44, 44);
+    width: 100%;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 200px);
+    padding: 20px;
+    grid-gap: 15px;
+}
+.item{
+    border: 3px solid black;
+    background-size: cover;
+    background-position: center;
+}
+.item1{
+    background-image: url(../multimedia/design594x394.jpg);
+}
+.item2{
+    background-image: url(../multimedia/prepare594x394.jpg);
+}
+.item3{
+    background-image: url(../multimedia/print594x394.jpg);
+}
+.item4{
+    background-image: url(../multimedia/assembly594x394.jpg);
+}
+.item5{
+    background-image: url(../multimedia/qc594x394.jpg);
+}
+.item6{
+    background-image: url(../multimedia/shipping594x394.jpg);
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+.greay{
+    background-color: rgb(44, 44, 44);
+}
+.cont-ing{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+.iniciarsesion{
+    text-align: center;
+    font-size: 3em;
+}
+.ing-wrapper{
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+.ing-wrapper > * {
+    padding: 1em;
+}
+.ing-form{
+    background: black;
+    color: white;
+}
+.ing-form form{
+    margin: 0;
+    padding: 1em;
+}
+.ing-form form button,
+.ing-form form input{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid red;
+}
+.ing-form form button{
+    background: red;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+@media (min-width: 700px) {
+    div.contacto-wrapper{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+@media (min-width: 1500px) {
+    div.contacto-wrapper{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+@media (max-width:569px){
+    header{
+        flex-direction: column;
+        font-size: 11px;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+@media (max-width: 400px){
+    footer iframe{
+        width: 300px;
+        height: 200px;
+    }
+}
+@media only screen and (min-width:480px){
+    .contenedor{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 200px);
+    }
+}
+@media only screen and (min-width:1080px){
+    .contenedor{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+}
