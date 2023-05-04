@@ -194,10 +194,12 @@ h1{
 }
 .iniciarsesion{
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
 }
 .ing-wrapper{
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    font-family: 'Montserrat', sans-serif;
 }
 .ing-wrapper > * {
     padding: 1em;
@@ -206,7 +208,7 @@ h1{
     background: black;
     color: white;
 }
-.ing-form form{
+.ing-form form p{
     margin: 0;
     padding: 1em;
 }
@@ -222,9 +224,16 @@ h1{
 }
 .ing-form form button{
     background: red;
+    color: black;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
+}
+.ing-form form button:hover,
+.ing-form form button:focus{
+    background: red;
+    color: white;
+    transition: background-color 1s ease-out;
 }
 .fondoh{
     background-color: red;
