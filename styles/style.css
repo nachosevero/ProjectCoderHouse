@@ -56,14 +56,6 @@ footer p{
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
-.fondoh{
-    background-color: red;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 40px;
-    color: black;
-
-}
 h2.centro{
     font-family: 'Bebas Neue', cursive;
     font-size: 35px;
@@ -119,6 +111,7 @@ div.contacto-wrapper{
     padding: 1.5em;
 }
 .contah3{
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 1.8em;
 }
@@ -232,6 +225,13 @@ h1{
     border: 0;
     text-transform: uppercase;
     padding: 1em;
+}
+.fondoh{
+    background-color: red;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: black;
 }
 @media (min-width: 700px) {
     div.contacto-wrapper{
